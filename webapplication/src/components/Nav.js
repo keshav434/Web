@@ -9,7 +9,7 @@ const Nav=()=>{
             <img className="profile-pic" src={picture} alt=""/>
             </div>
             <ul className="nav-ul">
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Web/">Home</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/resume">Resume</Link></li>
             </ul>

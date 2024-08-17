@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
        <Nav />
        <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Web/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<h1>Update Product Component</h1>} />
        </Routes>
