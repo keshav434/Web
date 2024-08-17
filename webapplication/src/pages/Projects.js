@@ -1,29 +1,42 @@
-import React,{useState} from "react";
+import React from "react";
+import { Link } from 'react-router-dom';
+import data from './ProjectsInfo'; // Adjust the path as necessary
 
-const Projects=()=>{
-    const [name,setName]=useState("");
-    const [email,setEmail]=useState("");
-    const [password,setPassword]=useState("");
-    const CollectData=()=>{
-        console.warn(name,email,password);
-    }
+const Projects = () => {
+  const { projectData } = data;
 
-    return(
-        <div className="register">
-            <h1>Projects</h1>
+  if (!Array.isArray(projectData)) {
+    return <p>No projects available.</p>;
+  }
 
-            <input className="inputBox" type="text"placeholder="Enter Name"
-            value={name} onChange={(e)=>setName(e.target.value)}/>
+  return (
+    <div className='project'>
+      <h2 className="pro">Projects</h2>
+      {projectData.length === 0 ? (
+        <p>No projects available.</p>
+      ) : (
+        projectData.map(project => (
+          <div key={project.id} className='project-item'>
+            <Link to={`/projects/${project.name}`} className='project-btn'>
+              <div className='image-container'>
+                <div className='project-type'>{project.type}</div>
+                <img src={project.img || 'default-image.jpg'} alt={project.name} className='image-rst' />
+              </div>
+              <div className='project-details'>
+                <h3 className='project-title'>{project.name}</h3>
+                <p className='description'>{project.subtitle || 'No subtitle provided'}</p>
+              </div>
+            </Link>
+          </div>
+        ))
+      )}
+    </div>
+  );
+};
 
-            <input className="inputBox" type="text"placeholder="Enter Email" 
-            value={email} onChange={(e)=>setEmail(e.target.value)}/>
+export default Projects;
 
-            <input className="inputBox" type="text"placeholder="Enter Password" 
-            value={password} onChange={(e)=>setPassword(e.target.value)}/>
 
-            <button onClick={CollectData} className="appButton" type="button">Sign Up</button>
-        </div>
-    )
-}
 
-export default Projects
+
+
