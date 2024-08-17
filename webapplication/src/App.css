@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  min-height: 90rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: rgb(235, 230, 230);
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  border-color: blanchedalmond;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(235, 230, 230); 
+}
+
+.profile-pic {
+  height: 130px; 
+  border-radius: 50%; 
+  width: auto;
+  background-color: rgb(3, 3, 3);
+  margin-left: 2rem;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-ul li {
+  display: inline;
+}
+
+.nav-ul li a {
+  color: rgb(42, 39, 39);
+  background-color: rgb(235, 230, 230);
+  text-decoration: none;
+  font-size: larger;
+  padding: 1rem 1.5rem; /* Adjusted padding */
+  transition: background-color 0.3s ease;
+  margin-right: 2rem;
+  border-radius: 8px; /* Adds a slight rounding to the corners */
+}
+
+.nav-ul li a:hover {
+  background-color: rgb(29, 215, 153); 
+}
+
+.nav-ul li a:active {
+  background-color: rgb(216, 57, 57);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .profile-pic {
+    height: 100px; /* Reduced size for smaller screens */
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center; /* Center align links on small screens */
+  }
+
+  .nav-ul li a {
+    width: 100%; /* Links take full width on small screens */
+    text-align: center;
+    padding: 1rem; /* Simplified padding for mobile */
+    margin-right: 0; /* Remove right margin on small screens */
+  }
+}
