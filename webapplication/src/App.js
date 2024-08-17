@@ -1,21 +1,21 @@
 import './App.css';
 import Nav from './components/Nav';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'; // No need to import BrowserRouter here
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-       <Nav />
-       <Routes>
-        <Route path="/Web/" element={<Home />} />
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<h1>Update Product Component</h1>} />
-       </Routes>
-       </BrowserRouter>   
+      </Routes>
     </div>
   );
 }
 
 export default App;
+
