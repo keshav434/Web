@@ -17,7 +17,7 @@ const Projects = () => {
       ) : (
         projectData.map(project => (
           <div key={project.id} className='project-item'>
-            <Link to={`/projects/${project.name}`} className='project-btn'>
+            <Link to={`/projects/${project.id}`} className='project-btn'>
               <div className='image-container'>
                 <div className='project-type'>{project.type}</div>
                 <img src={project.img || 'default-image.jpg'} alt={project.name} className='image-rst' />
