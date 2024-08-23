@@ -11,16 +11,16 @@ const Home = () => {
 
       <b>My Journey So Far 🛤️</b>
       <p>
-    Throughout my academic career, I’ve immersed myself in a variety of
-    technologies, from <b>Python scripting</b> and <b>SQL querying 📊</b> to
-    exploring frameworks like <b>React</b> ⚛️, <b>Node.js</b> 🌐, and <b>C# with ASP.NET</b> 💼. I’ve taken on a wide range of projects,
-    including <b>developing predictive models</b>, <b>creating dynamic web applications</b>,
-    and <b>optimizing client-server systems</b>. One of my most rewarding experiences
-    involved working with large datasets, where I combined Python's data-crunching power with
-    the flexibility of React, Node.js, and the robustness of C# and ASP.NET to build intuitive, user-friendly solutions 💡.
-    It’s been a thrilling journey of turning data into actionable insights and developing full-stack
-    applications that truly make an impact. 💻✨
-</p>
+        Throughout my academic career, I’ve immersed myself in a variety of
+        technologies, from <b>Python scripting</b> and <b>SQL querying 📊</b> to
+        exploring frameworks like <b>React</b> ⚛️ and <b>Node.js</b> 🌐. I’ve taken on a wide range of projects,
+        including <b>developing predictive models</b>, <b>creating dynamic web applications</b>,
+        and <b>optimizing client-server systems</b>. One of my most rewarding experiences
+        involved working with large datasets, where I combined Python's data-crunching power with
+        the flexibility of React and Node.js to build intuitive, user-friendly solutions 💡.
+        It’s been a thrilling journey of turning data into actionable insights and developing full-stack
+        applications that truly make an impact. 💻✨
+      </p>
 
       <b>Tech Meets Teamwork 🤝</b>
       <p>
