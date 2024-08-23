@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/Web/static/css/main.543df86c.css",
-    "main.js": "/Web/static/js/main.5168f0b5.js",
+    "main.js": "/Web/static/js/main.f6187d15.js",
+    "static/media/fd1.png": "/Web/static/media/fd1.f83357aca6ccfba3ee3c.png",
+    "static/media/fd2.png": "/Web/static/media/fd2.2b785305be458c6ac78d.png",
+    "static/media/tm6.png": "/Web/static/media/tm6.de2019cbe0cd21c46b47.png",
     "static/media/Keshavpic.png": "/Web/static/media/Keshavpic.80505ad63d4405026908.png",
     "static/media/TSA.png": "/Web/static/media/TSA.8e13c511c2bf74a9e478.png",
     "static/media/mp2.png": "/Web/static/media/mp2.d7149dd2c9c1a7a8345f.png",
     "static/media/eco.png": "/Web/static/media/eco.98e1189ffe356e65d91e.png",
+    "static/media/fd.png": "/Web/static/media/fd.08859ae1f9aa8079712a.png",
     "static/media/fitness.png": "/Web/static/media/fitness.81038858f6bed7d902b8.png",
     "static/media/pic.png": "/Web/static/media/pic.448bebe8497177a8b1d1.png",
     "static/media/Loan4.png": "/Web/static/media/Loan4.dddf2763ca63083d8759.png",
@@ -17,17 +21,21 @@
     "static/media/cv.pdf": "/Web/static/media/cv.bf0676389f2e1c066c83.pdf",
     "static/media/Loan3.png": "/Web/static/media/Loan3.9344b7601a2ace5a7c9d.png",
     "static/media/code.png": "/Web/static/media/code.279cbc648b291aeb275d.png",
+    "static/media/tm1.png": "/Web/static/media/tm1.af7662db4ea2ca795195.png",
     "static/media/eco2.png": "/Web/static/media/eco2.f635b8b921f0246d5525.png",
     "static/media/image.png": "/Web/static/media/image.9cb51167d645db1f5a77.png",
     "static/media/mp1.png": "/Web/static/media/mp1.dae76b9ae8b3b31b78fa.png",
     "static/media/Loan5.png": "/Web/static/media/Loan5.9b0da7611a17de4be1fa.png",
+    "static/media/tm4.png": "/Web/static/media/tm4.d8507e3909c846aa4b36.png",
+    "static/media/tm2.png": "/Web/static/media/tm2.fa5e1be34298d01f5169.png",
     "static/media/mp3.png": "/Web/static/media/mp3.9a3aedf0b15275a23e43.png",
+    "static/media/tm5.png": "/Web/static/media/tm5.c2dbc652a6b0775718e4.png",
     "index.html": "/Web/index.html",
     "main.543df86c.css.map": "/Web/static/css/main.543df86c.css.map",
-    "main.5168f0b5.js.map": "/Web/static/js/main.5168f0b5.js.map"
+    "main.f6187d15.js.map": "/Web/static/js/main.f6187d15.js.map"
   },
   "entrypoints": [
     "static/css/main.543df86c.css",
-    "static/js/main.5168f0b5.js"
+    "static/js/main.f6187d15.js"
   ]
 }
