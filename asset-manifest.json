@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/Web/static/css/main.543df86c.css",
-    "main.js": "/Web/static/js/main.ba156194.js",
+    "main.js": "/Web/static/js/main.24355364.js",
+    "static/media/Film.png": "/Web/static/media/Film.b902fb6710776445bef0.png",
     "static/media/fd1.png": "/Web/static/media/fd1.f83357aca6ccfba3ee3c.png",
     "static/media/fd2.png": "/Web/static/media/fd2.2b785305be458c6ac78d.png",
+    "static/media/nh.png": "/Web/static/media/nh.8dffaddd39b7f88eb7e7.png",
     "static/media/tm6.png": "/Web/static/media/tm6.de2019cbe0cd21c46b47.png",
+    "static/media/Covid.png": "/Web/static/media/Covid.347915e3b506bca58ea9.png",
     "static/media/Keshavpic.png": "/Web/static/media/Keshavpic.80505ad63d4405026908.png",
     "static/media/TSA.png": "/Web/static/media/TSA.8e13c511c2bf74a9e478.png",
     "static/media/mp2.png": "/Web/static/media/mp2.d7149dd2c9c1a7a8345f.png",
     "static/media/eco.png": "/Web/static/media/eco.98e1189ffe356e65d91e.png",
     "static/media/fd.png": "/Web/static/media/fd.08859ae1f9aa8079712a.png",
     "static/media/fitness.png": "/Web/static/media/fitness.81038858f6bed7d902b8.png",
+    "static/media/tb.png": "/Web/static/media/tb.ba8dfec593fe527d9647.png",
     "static/media/pic.png": "/Web/static/media/pic.448bebe8497177a8b1d1.png",
     "static/media/Loan4.png": "/Web/static/media/Loan4.dddf2763ca63083d8759.png",
     "static/media/tas1.png": "/Web/static/media/tas1.c6d005117932c5a81722.png",
@@ -32,10 +36,10 @@
     "static/media/tm5.png": "/Web/static/media/tm5.c2dbc652a6b0775718e4.png",
     "index.html": "/Web/index.html",
     "main.543df86c.css.map": "/Web/static/css/main.543df86c.css.map",
-    "main.ba156194.js.map": "/Web/static/js/main.ba156194.js.map"
+    "main.24355364.js.map": "/Web/static/js/main.24355364.js.map"
   },
   "entrypoints": [
     "static/css/main.543df86c.css",
-    "static/js/main.ba156194.js"
+    "static/js/main.24355364.js"
   ]
 }
