@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import data from './ProjectsInfo'; // Adjust the path as necessary
 
 const Projects = () => {
-  const { projectData } = data;
+  const projectData = data.projectData || []; // Ensure projectData is defined and is an array
 
   if (!Array.isArray(projectData)) {
     return <p>No projects available.</p>;

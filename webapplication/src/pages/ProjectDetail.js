@@ -4,8 +4,8 @@ import data from './ProjectsInfo'; // Adjust the path as necessary
 
 const ProjectDetail = () => {
   const { id } = useParams();
-  const { projectData } = data;
-  
+  const projectData = data.projectData || []; // Adjust if the structure is different
+
   // Find the project by id
   const project = projectData.find(p => p.id === parseInt(id, 10));
 
@@ -13,25 +13,25 @@ const ProjectDetail = () => {
     return <p>Project not found.</p>;
   }
 
-  // Get the first additional entry
-  const additional = project.additionals[0];
+  // Get the first additional entry with fallback
+  const additional = (project.additionals && project.additionals.length > 0)
+    ? project.additionals[0]
+    : { Project: 'N/A', overview: 'No overview available.', working: 'No working details available.', tools: 'No tools listed.' };
+
+  // Fallback image URL if project.img is missing
+  const fallbackImage = 'path/to/fallback-image.jpg'; // Provide a path to a fallback image
+  const imageUrl = project.img || fallbackImage;
 
   return (
     <div className="project-detail">
-      <h2>{project.name}</h2>
-      <h3>{project.type}</h3>
-      <img src={project.img} alt={project.name} className="project-image" />
       <div className="project-info">
-        <p><strong>Overview:</strong> {additional.overview}</p>
-        {additional.addimg1 && <img src={additional.addimg1} alt="Overview" className="additional-image" />}
-        
-        <p><strong>Project:</strong> {additional.Project}</p>
-        {additional.addimg2 && <img src={additional.addimg2} alt="Project" className="additional-image" />}
-        
-        <p><strong>Working:</strong> {additional.working}</p>
-        {additional.addimg3 && <img src={additional.addimg3} alt="Working" className="additional-image" />}
-        
-        <p><strong>Tools:</strong> {additional.tools}</p>
+        <h2>{project.name}</h2>
+        <h3>{project.type}</h3>
+        <p className='boxskill'>{additional.Project}</p>
+        <img src={imageUrl} alt={project.name} className="project-image" />
+        <p>{additional.overview}</p>
+        <p>{additional.working}</p>
+        <p>{additional.tools}</p>
       </div>
     </div>
   );
